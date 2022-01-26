@@ -2,11 +2,11 @@ clean:
 	rm -rf build
 
 update:
-	ppm --generate-package="src/isolib"
+	ppm --generate-package="src/Isolib"
 
 build:
 	mkdir build
-	ppm --no-intro --compile="src/isolib" --directory="build"
+	ppm --no-intro --compile="src/Isolib" --directory="build"
 
 install:
 	ppm --no-intro --no-prompt --fix-conflict --install="build/net.intellivoid.isolib.ppm"

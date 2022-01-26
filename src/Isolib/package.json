@@ -1,0 +1,32 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.isolib",
+        "name": "isolib",
+        "version": "1.0.0.0",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid Technologies",
+        "description": "A library for managing & resolving ISO codes",
+        "url": "https://github.com/intellivoid/isolib",
+        "dependencies": [],
+        "configuration": {
+            "autoload_method": "generated_spl",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "Isolib.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/IsoData.php"
+        }
+    ],
+    "files": [
+        "package.json",
+        "data.json"
+    ]
+}
